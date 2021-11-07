@@ -10,18 +10,18 @@ pip install --user virtualenv
 ```
 3. Create a virtual environment with :
 ```
-virtualenv myenv
+virtualenv myenviro
 ```
 4. For Python >= 3.3 use :
 ```
-python -m venv abc
+python -m venv myenviro
 ```
 
 
 5. Activate the virtual environment with :<br>
 
 ```
-source myenv/bin/activate
+source myenviro/bin/activate
 ```
 6. To deactivate the virtual environment, you can run 
 ```
@@ -39,12 +39,12 @@ pip install --user ipykernel
 
 8.  Add your virtual environment to Jupyter by typing:
 ```
-python -m ipykernel install --user --name=myenv
+python -m ipykernel install --user --name=myenviro
 ```
 
  - This should print the following:
 ```
-Installed kernelspec myenv in /home/user/.local/share/jupyter/kernels/myenv
+Installed kernelspec myenviro in /home/user/.local/share/jupyter/kernels/myenviro
 ```
 
 9.  Open your Jupyter notebook & check under the _new_ tab

@@ -18,10 +18,10 @@ python -m venv myenviro
 ```
 
 
-5. Activate the virtual environment with :<br>
+5. Go to the 'Scripts' folder in your newly created Environment & RUN :<br>
 
 ```
-source myenviro/bin/activate
+activate
 ```
 6. To deactivate the virtual environment, you can run 
 ```
@@ -34,7 +34,7 @@ deactivate
 
 7. Install ipykernel which provides the IPython kernel for Jupyter : 
 ```
-pip install --user ipykernel
+pip install ipykernel
 ```
 
 8.  Add your virtual environment to Jupyter by typing:

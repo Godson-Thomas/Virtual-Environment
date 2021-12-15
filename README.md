@@ -48,3 +48,15 @@ Installed kernelspec myenviro in /home/user/.local/share/jupyter/kernels/myenvir
 ```
 
 9.  Open your Jupyter notebook & check under the _new_ tab
+
+10. Deleting your virtual environment :
+- To list existing Jupyter virtual environments
+```
+jupyter kernelspec list
+```
+11. To remove the environment from Jupyter : 
+
+```
+jupyter kernelspec uninstall your_environment_name
+```
+12. Remove your environment folder.
